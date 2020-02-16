@@ -1,9 +1,9 @@
 {
-	"name": "concurrent-suspenseS",
+	"name": "concurrent-suspense",
 	"version": "1.0.0",
 	"description": "",
 	"keywords": [],
-	"main": "src/index.js",
+	"main": "src/step1/index.js",
 	"dependencies": {
 		"babel-eslint": "10.0.1",
 		"react": "0.0.0-experimental-5faf377df",

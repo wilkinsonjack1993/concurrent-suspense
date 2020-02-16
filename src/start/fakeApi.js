@@ -1,10 +1,10 @@
-export function fetchProfileData(userId) {
-	let userPromise = fetchTurtleDetails(userId);
-	let postsPromise = fetchTurtleImage(userId);
+export function fetchProfileData(turtleId) {
+	let detailsPromise = fetchTurtleDetails(turtleId);
+	let imagePromise = fetchTurtleImage(turtleId);
 	return {
-		userId,
-		user: wrapPromise(userPromise),
-		posts: wrapPromise(postsPromise),
+		turtleId,
+		turtleDetails: wrapPromise(detailsPromise),
+		turtleImage: wrapPromise(imagePromise),
 	};
 }
 
