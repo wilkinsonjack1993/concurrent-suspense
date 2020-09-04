@@ -6,7 +6,7 @@
 	"main": "src/step1/index.js",
 	"dependencies": {
 		"babel-eslint": "10.0.1",
-		"react": "0.0.0-experimental-5faf377df",
+		"react": "0.14.0",
 		"react-dom": "0.0.0-experimental-5faf377df",
 		"react-scripts": "3.0.1"
 	},
