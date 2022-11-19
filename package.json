@@ -8,7 +8,7 @@
 		"babel-eslint": "10.0.1",
 		"react": "0.0.0-experimental-5faf377df",
 		"react-dom": "0.0.0-experimental-5faf377df",
-		"react-scripts": "3.0.1"
+		"react-scripts": "5.0.1"
 	},
 	"devDependencies": {
 		"typescript": "3.3.3"
